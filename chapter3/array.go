@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+
 func main(){
 
 	// 数组是值类型
@@ -14,4 +15,8 @@ func main(){
 	var d = &c
 	d[1]++
 	fmt.Println(c, *d)
+
+
+
+
 }
